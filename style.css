@@ -1,0 +1,41 @@
+body {
+  font-size: 1.2em;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1{
+  text-align: center;
+}
+
+#container {
+  align-self: center;
+  width: 350px;
+  padding: 2em;
+  background: linear-gradient(-20deg, rgb(0, 98, 16), rgb(112, 255, 136));
+  border-radius: 50px;
+
+}
+
+div {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+label {
+  width: 100%;
+}
+
+@media(min-width: 500px) {
+  body {
+    width: 50%;
+    background: url(restaurantbackground.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+  #container {
+    opacity: 0.9;
+    align-self: center;
+  }
+
+}
