@@ -1,26 +1,28 @@
 body {
   font-size: 1.2em;
-  width: 100%;
-  margin: 0 auto;
+  border: 0;
+  margin: 0;
+  background: rgb(112, 225, 136);
 }
 
 h1{
   text-align: center;
+  margin-top: 0;
+  padding-top: 20px;
 }
 
 #container {
-  align-self: center;
-  width: 350px;
-  padding: 2em;
-  background: linear-gradient(-20deg, rgb(0, 98, 16), rgb(112, 255, 136));
-  border-radius: 50px;
-
+  width: 100%;
+  padding: 0 0 0;
+  background-color: transparent;
 }
 
 div {
   text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;
+  padding-right: 0;
+  margin-right: 0;
 }
 
 label {
@@ -32,10 +34,26 @@ label {
     width: 50%;
     background: url(restaurantbackground.jpg) no-repeat center center fixed;
     background-size: cover;
+    border-radius: 50px;
   }
+
   #container {
+    width: 350px;
     opacity: 0.9;
     align-self: center;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -175px;
+    height: auto;
+    padding: 0 0 0;
+    background: linear-gradient(-20deg, rgb(0, 98, 16), rgb(112, 255, 136));
+  }
+
+  h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
 }
