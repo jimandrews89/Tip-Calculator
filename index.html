@@ -11,9 +11,9 @@
   <div id="container">
     <h1>Tip Calculator</h1>
     <hr>
-    <div>
+    <div id="total">
       <label>Total Bill:</label>
-      <input type="text" placeholder="Enter Your Total Bill..." id="billTotal">
+      <input type="number" placeholder="Enter Your Total Bill..." id="billTotal">
     </div>
     <div>
       <label>Tip Percentage</label>
@@ -23,14 +23,10 @@
         <input type="radio" id="tip10" name="tip" value=".1"> 10%</input>
       </form>
     </div>
-
-<!-- For some reason dividing in JS is causing NaN on the final bull line.
-Leaving out the number of people function until I can figure that out.
-<div>
-  <label>How Many People Paying</label>
-  <input type="text" id="number-of-people" placeholder="How many people..."></input>
-</div>
--->
+    <div id="split">
+      <label>How Many People Paying</label>
+      <input type="number" id="number-of-people" placeholder="How many people..."></input>
+    </div>
     <hr>
     <div>
       <label>Tip Total </label><span id="newTipTotal"> </span>
